@@ -1,9 +1,31 @@
-nav {
-text-align: center;
-display: block;
-margin: auto;
-font-size: 16px;
+p {
+    padding: 5px 20px 20px 5px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  li a:hover {
+    background-color: pink;
+  }
 
 footer {
 display: block;
@@ -17,10 +39,8 @@ body {
 }
 
 main { 
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-block: auto;
+    width: 80%;
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
@@ -38,16 +58,24 @@ main {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 30px;
+    padding: 20px;
 }
 
 #centeredHeader {
     text-align: center;
     font-style: italic;
-    color: #821111;
+    color: pink;
 }
 
 #italicizedHeader {
     font-style: italic;
-    color: #821111;
+    color: pink;
+}
+
+#footerIcons {
+    width:24px;
+    height:24px;
+    border: none;
+    padding: 0 10px 10px 0;
 }
